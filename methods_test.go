@@ -7,7 +7,6 @@ import (
 	"io"
 	"net/http"
 	"testing"
-
 	"github.com/go-telegram/bot/models"
 )
 
