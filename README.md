@@ -479,3 +479,4 @@ In the repo https://github.com/go-telegram/ui you can find a some UI elements fo
 and more...
 
 Please, check the repo for more information and live demo.
+If you have any question whit this project, feel free to reach out.
