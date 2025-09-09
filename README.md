@@ -415,9 +415,7 @@ Return file download link after call method `GetFile`
 See [documentation](https://core.telegram.org/bots/api#getfile)
 
 ## Errors
-
 This library includes error handling. It provides the following error types:
-
 - **ErrorForbidden (403):** This error occurs when the bot has no access to the action, such as when the user has blocked the bot.
 - **ErrorBadRequest (400):** This error indicates a bad request made to the bot's API.
 - **ErrorUnauthorized (401):** This error occurs when the bot's access is unauthorized for the requested action.
@@ -454,9 +452,7 @@ if errors.Is(err, mybot.ErrorConflict) {
     // Handle the ErrorConflict (409) case here
 }
 ```
-
 ## Other
-
 - `bot.ID() int64` - returns bot ID. Bot ID is a unique identifier for the bot, obtained from the token as first part before `:`. Example: `110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw` - bot ID is `110201543`. If the bot token is invalid, the bot ID will be 0.
 - `bot.Token() string` - returns bot token
 - `bot.SetToken()` - set new bot token
